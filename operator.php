@@ -1,0 +1,122 @@
+<?php
+$a = 10;
+$b = 20;
+$c = $a + $b;
+echo $c;
+echo "<br>";
+$d = $a-$b;
+echo $d;
+echo "<br>";
+$e = $a * $b;
+echo $e;
+echo "<br>";
+$f = $a / $b;
+echo $f;
+echo "<br>";
+$g = $a % $b;
+echo $g;
+echo "<br>";
+$h = $a ** $b;
+echo $h;
+$a+=$b;
+echo $a;
+echo "<br>";
+$a-=$b;
+echo $a;
+echo "<br>";
+$a*=$b;
+echo $a;
+echo "<br>";
+$a/=$b;
+echo $a;
+echo "<br>";
+$a%=$b;
+echo $a;
+echo "<br>";
+$a**=$b;
+echo $a;
+echo "<br>";
+echo $a<=$b;
+echo "<br>";
+echo $a >=$b;
+echo "<br>";
+echo $a ==$b;
+echo "<br>";
+echo $a !=$b;
+echo "<br>";
+echo $a <>$b;
+echo "<br>";
+echo $a ===$b;
+echo "<br>";
+echo $a !==$b;
+echo "<br>";
+echo $a <=> $b;
+echo "<br>";
+echo $a <=> $c;
+$year = 2014;
+if($year % 400 == 0 || ($year % 4 == 0 && $year % 100 != 0)){
+    echo "$year is a leap year";
+}else{
+    echo "$year is not a leap year";
+}
+//compairing integers;
+echo 1<=>1;
+echo "<br>";
+$val = 5;
+echo abs($val);
+echo "<br>";
+echo sqrt($val);
+echo "<br>";
+echo pow($val,2);
+echo "<br>";
+echo max($val,2);
+echo "<br>";
+echo min($val,2);
+echo "<br>";
+echo round(3.7);
+echo "<br>";
+echo floor(3.7);
+echo "<br>";
+echo ceil(3.7);
+echo "<br>";
+echo rand(1,10);
+echo "<br>";
+echo mt_rand(1,10);
+echo "<br>";
+echo bin2hex("hello world");
+echo "<br>";
+echo hex2bin("68656c6c6f20776f726c64");
+echo "<br>";
+echo base64_encode("hello world");
+echo "<br>";
+echo base64_decode("aGVsbG8gd29ybGQ=");
+echo "<br>";
+$num = 34;
+
+if($num % 2 == 0){
+    echo "$num is even";
+}else{
+    echo "$num is odd";
+}
+echo "<br>";
+$p = 3.14;
+$r = 4;
+echo "The area of circle is: ".pi()*pow($r,2);
+echo "<br>";
+echo "The area of rectangle is: ".$p*$r;
+echo "<br>";
+echo "The area of square is: ".pow($r,2);
+echo "<br>";
+echo "The area of triangle is: ".(0.5*$p*$r);
+echo "<br>";
+$num1=(int)readline("Enter the first number: ");
+$num2=(int)readline("Enter the second number: ");
+echo "\n";
+echo "sum= ".($num1+$num2)."\n;
+
+
+echo "difference= ".($num1-$num2)."\n;
+echo "product= ".($num1*$num2)."\n;
+echo "quotient= ".($num1/$num2)."\n;
+echo "remainder= ".($num1%$num2)."\n;
+?>
